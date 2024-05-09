@@ -1,0 +1,19 @@
+[package]
+name = "bob"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 提供C语言原型
+libc = "0.2.149"
+# 提供正则表达式搜索能力
+regex = "1.9.6"
+# 给字符串染色，染成社会的大人的颜色哦~~~~~
+colored = "2.0.4"
+# 通用错误处理，其实我也不太会用，不过看大家都用了，自己也用用吧~~~
+anyhow = "1.0.75"
+# 提供 Linux 相关系统调用接口, 大树底下好乘凉嘛~~
+nix = "0.27.1"
+
